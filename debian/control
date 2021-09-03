@@ -1,0 +1,17 @@
+Source: mlite
+Section: devel
+Maintainer: Erik Inkinen <erik.inkinen@gmail.com>
+Priority: optional
+Build-Depends: pkg-kde-tools,
+               qt5-qmake,
+               qtbase5-dev,
+               libdconf-dev,
+               qttools5-dev-tools
+Standards-Version: 4.5.1
+
+Package: mlite
+Architecture: any
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Useful classes originating from MeeGo Touch
